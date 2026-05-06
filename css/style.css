@@ -1,0 +1,33 @@
+/* Full page layout */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    height: 50px;
+    background: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+/* Map fills remaining space */
+#map {
+    height: calc(100% - 50px);
+    width: 100%;
+}
+
+/* Simple legend */
+.legend {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: white;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
